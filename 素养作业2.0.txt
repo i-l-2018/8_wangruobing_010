@@ -1,0 +1,5 @@
+是的呢，我上次的作业找不着了，所以我又重写了一份
+Git的工作流程：
+1、	将本地仓库和GitHub中的仓库（远程仓库）联系起来。选中目标文件夹，右键，点击Git Bash Here，出现命令框，在命令框中输入git clone 地址（github仓库中文件的地址），回车。
+2、	向github仓库上传本地文件（本地仓库）。右键本地仓库，点击Git GUI Here，出现新窗口，点击左上角弹出的文件（进行过更改的文件），点击后文件移动到左下的暂存区，在右下的编辑框内可写本次变更的备注，点击commit，再点push，再在新窗口中点push，完成。
+3、	将github仓库的而变更同步到本地。右键本地文件，点击Git Bash Here，在新窗口中点击remote-fetch from-origin，最后点击merge-local merge，在弹出的新窗口点击merge，完成。
